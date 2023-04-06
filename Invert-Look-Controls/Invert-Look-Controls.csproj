@@ -25,6 +25,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="InvertRightStick.csproj.user" />
+    <Content Include="Invert-Look-Controls.csproj.user" />
   </ItemGroup>
 </Project>

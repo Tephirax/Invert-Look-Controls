@@ -1,14 +1,13 @@
 ﻿using HarmonyLib;
-using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 using UnityEngine;
 
-namespace InvertRightStick
+namespace InvertLookControls
 {
-    public class InvertRightStick : ModBehaviour
+    public class InvertLookControls : ModBehaviour
     {
-        public static InvertRightStick Instance;
+        public static InvertLookControls Instance;
 
         private void Awake()
         {
@@ -19,20 +18,6 @@ namespace InvertRightStick
             Instance = this;
         }
 
-        private void Start()
-        {
-
-            // Starting here, you'll have access to OWML's mod helper.
-            /*ModHelper.Console.WriteLine($"My mod {nameof(InvertRightStick)} is loaded!", MessageType.Success);
-
-
-            // Example of accessing game code.
-            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
-            {
-                if (loadScene != OWScene.SolarSystem) return;
-                ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-            };*/
-        }
     }
     
     [HarmonyPatch]

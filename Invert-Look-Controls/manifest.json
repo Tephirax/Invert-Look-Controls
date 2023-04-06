@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "InvertRightStick.dll",
+  "filename": "Invert-Look-Controls.dll",
   "author": "Tephirax",
-  "name": "InvertRightStick",
-  "uniqueName": "Tephirax.InvertRightStick",
+  "name": "Invert Look Controls",
+  "uniqueName": "Tephirax.InvertLookControls",
   "version": "0.1.0",
   "owmlVersion": "2.9.0",
   "dependencies": []
